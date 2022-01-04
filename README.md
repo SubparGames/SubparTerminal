@@ -1,2 +1,3 @@
 # SubparTerminal
-# SubparTerminal
+
+Terminal for SubparGames

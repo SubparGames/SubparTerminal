@@ -39,7 +39,7 @@ def add_files():
 
         print("Empty commit message")
 
-    input("Check that the package.json version number has been updated appropriately\nCheck that the CHANGELOG.md has been updated appropriately\nWhen done, press enter ")
+    input("Check that the CHANGELOG.md has been updated appropriately\nWhen done, press enter ")
 
     print("Running commands...")
 
@@ -50,7 +50,6 @@ def add_files():
     system(f"git add CHANGELOG.md")
     system(f"git commit -m \"{commit_message}\"")
     system(f"git push -u origin main")
-    system(f"npm publish")
 
 
 add_files()
